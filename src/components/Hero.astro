@@ -2,9 +2,28 @@
 
 ---
 <header class="w-full relative top-0">
-    <video muted autoplay loop src="/videos/hero2.webm" class="w-full h-full absolute object-cover object-center z-0"></video>
-    <div>
-        <h1 class="text-accent font-rudolphin">Desarrollo Web</h1>
+    <video muted autoplay loop src="/videos/hero.webm" class="w-full h-full absolute object-cover object-center z-0"></video>
+    <div class="absolute inset-0 bg-surface/50 z-10"></div>
+    <div class="h-full w-5/6 max-w-5xl mx-auto flex flex-col-reverse md:flex-row justify-center lg:justify-between items-center gap-6 z-20 relative">
+        <div class="h-auto mx-auto flex flex-col justify-center md:items-start items-center text-center md:text-left relative">
+            <h2 class="text-primary font-gotham text-3xl font-normal">Hola, soy</h2>
+            <h1 class="text-text font-rudolphin text-7xl lg:text-9xl font-bold mb-6 mt-2">Iván<br>Alvear</h1>
+            <a
+            class="group relative inline-block overflow-hidden border border-primary px-8 py-3 focus:ring-3 focus:outline-hidden"
+            href="#"
+            >
+                <span
+                    class="absolute inset-x-0 top-0 h-[2px] bg-primary transition-all group-hover:h-full"
+                ></span>
+
+                <span
+                    class="relative text-sm font-medium text-primary transition-colors group-hover:text-surface"
+                >
+                    Contáctame
+                </span>
+            </a>
+        </div>
+        <img src="/imgs/avatar.png" alt="avatar" class="w-4/5 md:w-3/5 max-w-120 h-auto mx-auto">
     </div>
 </header>
 
