@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #00f5ff;
+  --color-secondary: #00adb5;
+  --color-accent: #48fff1;
+  --color-text: #e8f7f9;
+  --color-text-secondary: #b0e6eb;
+  --color-surface: #111927;
+  --color-alert: #ff5c5c;
+  --font-rudolphin: "Rudolphin", serif;
+  --font-gotham: "Gotham", sans-serif;
+  --font-gotham-bold: "Gotham Bold", sans-serif;
+}
