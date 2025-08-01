@@ -16,7 +16,6 @@
 </nav>
 
 <style>
-    /* Se simplifica el CSS para que Tailwind maneje el fondo y el blur */
     #menu {
         height: calc(100vh - 5rem);
     }
@@ -31,7 +30,6 @@
         #menu {
             left: unset;
             position: static;
-            /* Se elimina backdrop-filter, transform y background */
             transform: translateY(0);
             height: 100%;
         }
@@ -68,5 +66,4 @@
     closeBtn?.addEventListener('click', closeMenu)
     menuItems.forEach(item => item.addEventListener('click', closeMenu))
 
-    // El IntersectionObserver ya no es necesario para cambiar el fondo
 </script>
