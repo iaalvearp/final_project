@@ -9,11 +9,11 @@ interface Props {
 const { href, src, alt, title } = Astro.props;
 ---
 
-<a href={ href } class="block cursor-pointer w-full max-w-72 relative aspect-square h-full rounded-sm overflow-hidden hover:[&>h2]:text-3xl hover:[&>h2]:text-primary hover:[&>h2]:bg-surface/60 hover:[&>h2]:backdrop-blur-sm hover:[&>img]:scale-105 transition-all duration-300">
+<a href={ href } class="block cursor-pointer w-full max-w-72 relative aspect-square h-full rounded-sm overflow-hidden hover:[&>h2]:text-3xl hover:[&>h2]:text-text-secondary hover:[&>h2]:bg-surface/60 hover:[&>h2]:backdrop-blur-sm hover:[&>img]:scale-105 transition-all duration-300">
     <img class="w-full h-full absolute object-cover object-center opacity-100 duration-300"
     src={ src }
     alt={ alt } />
-    <h2 class=" flex items-center justify-center absolute bottom-0 h-10 w-full bg-text-secondary/60 text-surface text-3xl font-gotham-bold transition-all duration-300">{ title }</h2>
+    <h2 class="flex items-center justify-center absolute bottom-0 h-10 w-full py-1 bg-text-secondary/60 text-surface text-3xl font-gotham-bold transition-all duration-300">{ title }</h2>
 </a>
 
 <style>
